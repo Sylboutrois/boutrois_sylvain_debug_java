@@ -10,6 +10,12 @@ public class CountSymptomFromList {
         this.listSorted = listSorted;
     }
 
+    /**
+     * Counts the occurrences of each symptom in the list.
+     * 
+     * @return A HashMap where the key is the symptom and the value is the number of
+     *         occurrences.
+     */
     public HashMap<String, Integer> countSymptoms() {
         HashMap<String, Integer> mapSortAndCount = new HashMap<>();
 
